@@ -12,6 +12,7 @@ def srt_format_timestamp(seconds: float):
     hours = milliseconds // 3_600_000
     milliseconds -= hours * 3_600_000
 
+
     minutes = milliseconds // 60_000
     milliseconds -= minutes * 60_000
 
